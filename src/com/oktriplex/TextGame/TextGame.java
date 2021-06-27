@@ -10,14 +10,14 @@ public class TextGame {
 
         // Игровые переменные
         String[] enemies = {"Ассасин", "Воин", "Зомби", "Скелет"};
-        int maxEnemyHealth = 75;
-        int enemyAttackDamage = 25;
+        int maxEnemyHealth = 75; // макс. количество здоровья врагов
+        int enemyAttackDamage = 25; // сколько наносит урона враг при атаке
 
         // Переменные игрока
-        int health = 100;
-        int attackDamage = 50;
-        int numHealthPotions = 3;
-        int healthPotionHealAmount = 30;
+        int health = 100; // жизни игрока
+        int attackDamage = 50; // сколько игрок наносит урона при атаке
+        int numHealthPotions = 3; // количество зелий лечения в начале игры
+        int healthPotionHealAmount = 30; // количество здоровья которое прибавляет зелье лечения
         int healthPotionDropChance = 35; // 50% шанс выпадения зелья здоровья
 
         System.out.println("Добро пожаловать в подземелье!");
