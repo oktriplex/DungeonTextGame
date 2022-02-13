@@ -18,7 +18,7 @@ public class TextGame {
         int attackDamage = 50; // сколько игрок наносит урона при атаке
         int numHealthPotions = 3; // количество зелий лечения в начале игры
         int healthPotionHealAmount = 30; // количество здоровья которое прибавляет зелье лечения
-        int healthPotionDropChance = 35; // 50% шанс выпадения зелья здоровья
+        int healthPotionDropChance = 35; // ~ 35% шанс выпадения зелья здоровья
 
         System.out.println("Добро пожаловать в подземелье!");
 
